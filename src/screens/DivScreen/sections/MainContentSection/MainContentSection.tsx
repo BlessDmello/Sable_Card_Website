@@ -3,6 +3,7 @@ import { Badge } from "../../../../components/ui/badge";
 import { Button } from "../../../../components/ui/button";
 import { Card, CardContent } from "../../../../components/ui/card";
 import { Separator } from "../../../../components/ui/separator";
+import FlippingCard from "./FlippingCard"; 
 
 export const MainContentSection = (): JSX.Element => {
   // Partner logos data
@@ -252,12 +253,9 @@ export const MainContentSection = (): JSX.Element => {
       <div className="bg-white py-24 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2">
-              <img
-                className="w-full max-w-[590px] -mt-10"
-                alt="Sable Debit Card"
-                src="/61b78771b6d53e031df204a5-sable-card-debit-render-p-500-png.png"
-              />
+            <div className="md:w-1/2 h-[500px]"> {/* Ensure display height */}
+              {/* Replace static image with flipping card component */}
+              <FlippingCard />
             </div>
             <div className="md:w-1/2">
               <h2 className="text-4xl font-normal mb-6">
@@ -271,6 +269,7 @@ export const MainContentSection = (): JSX.Element => {
           </div>
         </div>
       </div>
+
 
       {/* Features Section */}
       <div className="bg-[#1c1c1e]">
