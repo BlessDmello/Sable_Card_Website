@@ -8,22 +8,22 @@ export const MainContentSection = (): JSX.Element => {
   // Partner logos data
   const partnerLogos = [
     {
-      src: "public/61a6275de8840755a9570b67-logo-20--20yahoo-20finance-svg.svg",
+      src: "/61a6275de8840755a9570b67-logo-20--20yahoo-20finance-svg.svg",
       alt: "Yahoo Finance Logo",
       width: "123.97px",
     },
     {
-      src: "public/61a6275dd539a123b240f117-logo-20--20bloomberg-svg.svg",
+      src: "/61a6275dd539a123b240f117-logo-20--20bloomberg-svg.svg",
       alt: "Bloomberg Logo",
       width: "242.83px",
     },
     {
-      src: "public/61a6275d9982843c69cde434-logo-20--20business-20insider-svg.svg",
+      src: "/61a6275d9982843c69cde434-logo-20--20business-20insider-svg.svg",
       alt: "Business Insider Logo",
       width: "146.05px",
     },
     {
-      src: "public/61a6275ef8821a79ae5c5085-logo-20--20forbes-svg.svg",
+      src: "/61a6275ef8821a79ae5c5085-logo-20--20forbes-svg.svg",
       alt: "Forbes Logo",
       width: "117.16px",
     },
@@ -32,28 +32,28 @@ export const MainContentSection = (): JSX.Element => {
   // Features data
   const features = [
     {
-      icon: "public/frame-1.svg",
+      icon: "/frame-1.svg",
       title: "Get a secured credit card and bank account in 5 minutes.",
       description:
         "No credit history, credit check, or minimum deposit required.",
       position: "left",
     },
     {
-      icon: "public/frame-5.svg",
+      icon: "/frame-5.svg",
       title: "Build your U.S. credit",
       description:
         "We believe in forming positive habits. Build your U.S. credit with Sable",
       position: "right",
     },
     {
-      icon: "public/frame-18.svg",
+      icon: "/frame-18.svg",
       title: "The only premium card for building credit.",
       description:
         "2% unlimited cash back on your favorite brands, 2X first year cash back match, premium benefits and more!",
       position: "left",
     },
     {
-      icon: "public/frame-11.svg",
+      icon: "/frame-11.svg",
       title: "Bank like a global citizen with Sable.",
       description:
         "Start building credit before you even enter the country. Non-U.S. citizens can apply with their passport and visa.",
@@ -74,37 +74,37 @@ export const MainContentSection = (): JSX.Element => {
   // Brand partners data
   const brandPartners = [
     {
-      src: "public/group.png",
+      src: "/group.png",
       alt: "Netflix Logo",
       width: "129px",
       height: "103px",
     },
     {
-      src: "public/626bd221cdd51f2ed481200f-spotify-svg.svg",
+      src: "/626bd221cdd51f2ed481200f-spotify-svg.svg",
       alt: "Spotify Logo",
       width: "130px",
       height: "130px",
     },
     {
-      src: "public/626bd2218d811f9258275c9c-amazon-svg.svg",
+      src: "/626bd2218d811f9258275c9c-amazon-svg.svg",
       alt: "Amazon Logo",
       width: "126px",
       height: "130px",
     },
     {
-      src: "public/626bd221b9b30b81b6b7f575-uber-20eats-svg.svg",
+      src: "/626bd221b9b30b81b6b7f575-uber-20eats-svg.svg",
       alt: "Uber Eats Logo",
       width: "130px",
       height: "100px",
     },
     {
-      src: "public/group-1.png",
+      src: "/group-1.png",
       alt: "Brand Logo",
       width: "68px",
       height: "130px",
     },
     {
-      src: "public/group-2.png",
+      src: "/group-2.png",
       alt: "Brand Logo",
       width: "129px",
       height: "43px",
@@ -141,11 +141,11 @@ export const MainContentSection = (): JSX.Element => {
       links: ["Email: help@sablecard.com", "Location: New York, NY"],
     },
     social: [
-      { icon: "public/frame-17.svg", alt: "Social Icon" },
-      { icon: "public/frame-23.svg", alt: "Social Icon" },
-      { icon: "public/frame-15.svg", alt: "Social Icon" },
-      { icon: "public/frame-22.svg", alt: "Social Icon" },
-      { icon: "public/frame-2.svg", alt: "Social Icon" },
+      { icon: "/frame-17.svg", alt: "Social Icon" },
+      { icon: "/frame-23.svg", alt: "Social Icon" },
+      { icon: "/frame-15.svg", alt: "Social Icon" },
+      { icon: "/frame-22.svg", alt: "Social Icon" },
+      { icon: "/frame-2.svg", alt: "Social Icon" },
     ],
   };
 
@@ -256,7 +256,7 @@ export const MainContentSection = (): JSX.Element => {
               <img
                 className="w-full max-w-[590px] -mt-10"
                 alt="Sable Debit Card"
-                src="public/61b78771b6d53e031df204a5-sable-card-debit-render-p-500-png.png"
+                src="/61b78771b6d53e031df204a5-sable-card-debit-render-p-500-png.png"
               />
             </div>
             <div className="md:w-1/2">
@@ -326,7 +326,7 @@ export const MainContentSection = (): JSX.Element => {
                   <img
                     className="absolute w-[129px] h-[103px] top-[25px]"
                     alt="Netflix Logo"
-                    src="public/group.png"
+                    src="/group.png"
                   />
                 </div>
               </div>
@@ -336,7 +336,7 @@ export const MainContentSection = (): JSX.Element => {
                   <img
                     className="w-full h-full"
                     alt="Brand Logo"
-                    src="public/group-1.png"
+                    src="/group-1.png"
                   />
                 </div>
               </div>
@@ -354,7 +354,7 @@ export const MainContentSection = (): JSX.Element => {
                   <img
                     className="w-[126px] h-[130px]"
                     alt="Amazon Logo"
-                    src="public/626bd2218d811f9258275c9c-amazon-svg.svg"
+                    src="/626bd2218d811f9258275c9c-amazon-svg.svg"
                   />
                 </div>
               </div>
@@ -364,7 +364,7 @@ export const MainContentSection = (): JSX.Element => {
                   <img
                     className="w-[129px] h-[43px]"
                     alt="Brand Logo"
-                    src="public/group-2.png"
+                    src="/group-2.png"
                   />
                 </div>
               </div>
@@ -379,7 +379,7 @@ export const MainContentSection = (): JSX.Element => {
           <div className="overflow-hidden mb-16">
             <h2 className="text-white text-7xl font-medium whitespace-nowrap">
               Compare Sable
-              <span className="inline-block w-4 h-4 bg-white rounded-lg mx-4"></span>
+              <span className="inline-block w-4 h-4 bg-white rounded-lg mx-32"></span>
               Compare Sable
             </h2>
           </div>
@@ -391,7 +391,7 @@ export const MainContentSection = (): JSX.Element => {
                 <img
                   className="w-[266px] h-[124px] mb-5"
                   alt="Sable Credit and Debit Card"
-                  src="public/61b0a95e1cdb65fc116b772b-visual-20--20compare-20--20credit-20deb.png"
+                  src="/61b0a95e1cdb65fc116b772b-visual-20--20compare-20--20credit-20deb.png"
                 />
                 <h3 className="text-[#10aca2] text-2xl">
                   Sable Secured  <br /> Credit &amp; Debit Card
@@ -401,7 +401,7 @@ export const MainContentSection = (): JSX.Element => {
                 <img
                   className="w-[197px] h-[124px] mb-5"
                   alt="Sable Debit Card"
-                  src="public/61b0a95e134742527aaa4111-visual-20--20compare-20--20debit-png.png"
+                  src="/61b0a95e134742527aaa4111-visual-20--20compare-20--20debit-png.png"
                 />
                 <h3 className="text-[#10aca2] text-2xl">
                   Sable Debit
@@ -520,12 +520,12 @@ export const MainContentSection = (): JSX.Element => {
                     <img
                       className="w-[185px]"
                       alt="Google Play"
-                      src="public/619cbf878e9721de86aa4bde-icon-google-play-svg.svg"
+                      src="/619cbf878e9721de86aa4bde-icon-google-play-svg.svg"
                     />
                     <img
                       className="w-[185px]"
                       alt="App Store"
-                      src="public/619cbf86ffe78e34b9138bb1-icon-app-store-svg.svg"
+                      src="/619cbf86ffe78e34b9138bb1-icon-app-store-svg.svg"
                     />
                   </div>
                 </div>
